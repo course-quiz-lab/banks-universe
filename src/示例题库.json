@@ -1,0 +1,38 @@
+{
+  "$schema": "https://course-quiz-lab.github.io/json-schema/v1/bank.schema.json",
+  "metadata": {
+    "name": "测试题库",
+    "course": "计算机科学导论",
+    "author": "测试作者",
+    "source": "test"
+  },
+  "questions": [
+    {
+      "type": "single",
+      "stem": "1+1等于几？",
+      "options": ["1", "2", "3", "4"],
+      "answer": 1,
+      "analysis": "1+1=2"
+    },
+    {
+      "type": "multiple",
+      "stem": "以下哪些是编程语言？",
+      "options": ["Python", "HTML", "JavaScript", "CSS"],
+      "answer": [0, 2],
+      "analysis": "Python和JavaScript是编程语言"
+    },
+    {
+      "type": "judge",
+      "stem": "地球是圆的",
+      "answer": true,
+      "analysis": "地球近似球体"
+    },
+    {
+      "type": "indeterminate",
+      "stem": "以下哪些属于操作系统？",
+      "options": ["Windows", "Linux", "macOS", "Word"],
+      "answer": [0, 1, 2],
+      "analysis": "Windows、Linux、macOS都是操作系统"
+    }
+  ]
+}
